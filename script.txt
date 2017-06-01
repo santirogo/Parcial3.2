@@ -1,0 +1,15 @@
+CREATE TABLE Colmena(
+	Id int PRIMARY KEY NOT NULL,
+    Poblacion int NOT NULL,
+    PresenciaReina boolean NOT NULL,
+    ProduccionMiel boolean NOT NULL,
+    PanalesCera int NOT NULL,
+    PanalesAlimento int NOT NULL,
+    PanalesCria int NOT NULL,
+    PanalesVacios int NOT NULL,
+    Kilos real NOT NULL
+);
+
+INSERT INTO Colmena (Id,Poblacion,PresenciaReina,ProduccionMiel,PanalesCera,PanalesAlimento,PanalesCria,PanalesVacios,Kilos) values (1,100,true,true,5,5,4,6,17.3);
+INSERT INTO Colmena (Id,Poblacion,PresenciaReina,ProduccionMiel,PanalesCera,PanalesAlimento,PanalesCria,PanalesVacios,Kilos) values (2,56,true,true,4,3,6,8,9.3);
+INSERT INTO Colmena (Id,Poblacion,PresenciaReina,ProduccionMiel,PanalesCera,PanalesAlimento,PanalesCria,PanalesVacios,Kilos) values (3,98,true,true,5,2,1,5,22.4);
