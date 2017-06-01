@@ -61,7 +61,7 @@ public class ChartServlet extends HttpServlet {
             
             
             dataset.setValue("Con miel",porcent);
-            dataset.setValue("Sin miel",porcent);
+            dataset.setValue("Sin miel",porcent2);
                 
             
                 
