@@ -46,7 +46,7 @@ public class ColmenaDAO {
        }
     
     public ArrayList kilosPorColmena(){
-            ArrayList total = new ArrayList();
+            ArrayList total = null;
            int id = 0;
            double registro = 0;
             try {
@@ -61,6 +61,9 @@ public class ColmenaDAO {
                 Statement st = connection.createStatement();
                 ResultSet rs = st.executeQuery(query);
                 while (rs.next()){
+                    if(total == null){
+	    		total = new ArrayList();
+                    }
                    id = rs.getInt("Id");
                    registro = rs.getDouble("Kilos");
                    total.add(id);

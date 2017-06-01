@@ -1,7 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<%@ page import="java.util.ArrayList" %>
-<%@ page import="dao.ColmenaDAO" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
     "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -18,12 +16,7 @@ body {
 </head>
 <body>
     <img src="ChartServlet" /><br/>
-    <!--<img src="BarServlet" /><br/>-->
-    <%
-        ColmenaDAO c = new ColmenaDAO();
-        ArrayList a = c.kilosPorColmena();
-    %>
-    <script>alert(""+<%+a.size();%>);</script>
+    <img src="BarServlet" /><br/>
     
 </body>
 </html>
