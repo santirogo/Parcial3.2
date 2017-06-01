@@ -17,7 +17,8 @@ body {
 <title>Crunchify JSP Servlet Example</title>
 </head>
 <body>
-    <a src="pie.jsp">Gráficos</a>
+    <img src="ChartServlet" /><br/>
+    <img src="BarServlet" /><br/>
     
 </body>
 </html>
