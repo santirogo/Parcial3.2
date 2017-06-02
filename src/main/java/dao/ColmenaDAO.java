@@ -63,6 +63,7 @@ public class ColmenaDAO {
                 while (rs.next()){
                    id = rs.getInt("Id");
                    registro = rs.getDouble("Kilos");
+                   total.add(id);
                    total.add(registro);
                 }
                 
