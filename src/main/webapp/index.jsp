@@ -17,7 +17,7 @@ body {
 </head>
 <body>
     <img src="ChartServlet" /><br/>
-    <img src="BarServlet" /><br/>
+    <!--<img src="BarServlet" /><br/>-->
     
 </body>
 </html>
