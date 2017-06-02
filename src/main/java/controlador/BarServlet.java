@@ -52,7 +52,7 @@ public class BarServlet extends HttpServlet {
             DefaultCategoryDataset dataset = new DefaultCategoryDataset();
             
             for (int i = 0; i < registros.size(); i+=2) {
-                dataset.addValue((Integer) registros.get(i+1), "1", "Colmena #"+registros.get(i));
+                dataset.addValue((Double) registros.get(i+1), "1", "Colmena #"+registros.get(i));
             }
             
                 //dataset.addValue(12, "1", "851");
