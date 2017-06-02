@@ -50,7 +50,7 @@ public class ColmenaDAO {
            int id = 0;
            double registro = 0;
             try {
-                String query = "select Id, Kilos from Colmena group by Id";
+                String query = "select Id, Kilos from Colmena";
                 Connection connection = null;
                 try {
                     connection = Conexion.getConnection();
