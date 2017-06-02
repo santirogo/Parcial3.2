@@ -23,7 +23,7 @@ body {
         ColmenaDAO c = new ColmenaDAO();
         ArrayList a = c.kilosPorColmena();
     %>
-    <script>alert(<%""+a.size();%>);</script>
+    <script>alert(""+<%+a.size();%>);</script>
     
 </body>
 </html>
